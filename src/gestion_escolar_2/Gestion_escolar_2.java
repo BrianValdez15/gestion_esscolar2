@@ -15,7 +15,14 @@ public class Gestion_escolar_2 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+       administrador admi = new administrador();
+       admi.contraseñaAdmi();
+       admi.correoAdmi();
+       admi.pedirDatos();
+       maestro maes = new maestro("bianvaldez@gmail.com", "panfilo  IV","1234",6276575);
+      maes.nombre();
+      maes.correo();
+      maes.telefono();
     }
     
 }
