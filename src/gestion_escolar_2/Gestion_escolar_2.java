@@ -23,10 +23,9 @@ public class Gestion_escolar_2 {
       maes.nombre();
       maes.correo();
       maes.telefono();
-     //Info maestro   
-     maestro info= new maestro(123);
-     info.maestro("Brian", "Briian123@gmail.com", "123", 551650);
-     info.mostrar();
+      maes.mostrar();
+   
+     
     }
     
 }
