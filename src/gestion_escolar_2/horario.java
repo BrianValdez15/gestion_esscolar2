@@ -9,6 +9,6 @@ package gestion_escolar_2;
  *
  * @author User
  */
-public class horario {
+public class horario extends clase{
     
 }

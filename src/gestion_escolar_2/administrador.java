@@ -9,6 +9,6 @@ package gestion_escolar_2;
  *
  * @author User
  */
-public class administrador {
+public class administrador extends escuela{
     
 }
