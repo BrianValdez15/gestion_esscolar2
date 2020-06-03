@@ -10,5 +10,17 @@ package gestion_escolar_2;
  * @author User
  */
 public class alumno extends escuela{
-    
+     private  String Correo;
+  private  String Nombre;
+  private   String Alergias;
+ private   String Contraseña;
+  private  int TelPadre;
+
+    public alumno(String Correo,String Nombre,String Alergias, String Contraseña, int TelPadre  ) {
+        this.Correo = Correo;
+        this.Nombre = Nombre;
+        this.Alergias = Alergias;
+        this.Contraseña = Contraseña;
+        this.TelPadre = TelPadre;
+    }
 }
