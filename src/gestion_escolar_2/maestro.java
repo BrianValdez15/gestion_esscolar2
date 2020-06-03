@@ -32,4 +32,7 @@ public void  correo(){
  public void telefono(){
      
  }
+      public void mostrar(){
+        System.out.println("Mi nombre es:"+Nombre+" Mi correo es:"+Correo+" y el telefono es "+Tel);
+    }
 }
