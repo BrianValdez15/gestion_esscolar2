@@ -21,4 +21,20 @@ public class curso extends clase{
     public void grado(){
         
     }
+      public int getSalon() {
+        return salon;
+    }
+
+    public void setSalon(int salon) {
+        this.salon = salon;
+    }
+
+    public int getGrado() {
+        return grado;
+    }
+
+    public void setGrado(int grado) {
+        this.grado = grado;
+    }
+  
 }
