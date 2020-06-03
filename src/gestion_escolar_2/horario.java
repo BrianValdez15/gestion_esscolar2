@@ -11,11 +11,14 @@ package gestion_escolar_2;
  */
 public class horario extends clase{
       String Dia;
+      int salon,grado;
    double Inicio,Termino;
 
-    public Horario(int Salon, int grado) { //Curso
-        super(Salon, grado);
+    public horario(String Correo, String Nombre, String Contraseña, int Tel) {
+        super(Correo, Nombre, Contraseña, Tel);
     }
+
+    
    
     public void Dia() { 
     String D;

@@ -10,5 +10,15 @@ package gestion_escolar_2;
  * @author User
  */
 public class curso extends clase{
-    
+     int salon,grado;
+
+    public curso(String Correo, String Nombre, String Contraseña, int Tel) {
+        super(Correo, Nombre, Contraseña, Tel);
+    }
+    public void salon(){
+        
+    }
+    public void grado(){
+        
+    }
 }
