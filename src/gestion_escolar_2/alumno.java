@@ -24,4 +24,44 @@ public class alumno extends escuela{
         this.Contraseña = Contraseña;
         this.TelPadre = TelPadre;
     }
+    public String getCorreo() {
+        return Correo;
+    }
+
+    public void setCorreo(String Correo) {
+        this.Correo = Correo;
+    }
+
+    public String getNombre() {
+        return Nombre;
+    }
+
+    public void setNombre(String Nombre) {
+        this.Nombre = Nombre;
+    }
+
+    public String getAlergias() {
+        return Alergias;
+    }
+
+    public void setAlergias(String Alergias) {
+        this.Alergias = Alergias;
+    }
+
+    public String getContraseña() {
+        return Contraseña;
+    }
+
+    public void setContraseña(String Contraseña) {
+        this.Contraseña = Contraseña;
+    }
+
+    public int getTelPadre() {
+        return TelPadre;
+    }
+
+    public void setTelPadre(int TelPadre) {
+        this.TelPadre = TelPadre;
+    }
 }
+
