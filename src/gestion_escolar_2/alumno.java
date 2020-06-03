@@ -10,6 +10,7 @@ package gestion_escolar_2;
  * @author User
  */
 public class alumno extends escuela{
+    //esto fue agregado por yair
      private  String Correo;
   private  String Nombre;
   private   String Alergias;
